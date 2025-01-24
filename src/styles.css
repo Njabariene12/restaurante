@@ -1,0 +1,119 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-position: center;
+    background-color: plum;
+    background-size: cover;
+    background-image: url(bighouse2.jpeg);
+
+  }
+h1{
+    text-align: center;
+    color: plum;
+}
+nav{
+    display: flex;
+    display: inline;
+    margin-left: 38%;
+}
+button{
+    border: none;
+    width: 100px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #FA5F55;
+    opacity: 0.6;
+    text-decoration: plum;
+    
+}
+button:hover{
+    opacity: 1.0;
+    transition: 0.3s;
+
+}
+header{
+    height: 200px;
+    width: 100%;
+    
+    opacity: 0.;
+}
+h2{
+    text-align: center;
+    color: yellow;
+    width: 600px;
+    margin: auto;
+    font-size: larger;
+}
+
+h3{
+    text-align: center;
+    color: yellow;
+    width: 600px;
+    margin: auto;
+    font-size: larger;
+}
+h4{
+    text-align: center;
+    color: yellow;
+    width: 600px;
+    margin: auto;
+    font-size: larger;
+    text-decoration: 3px underline;
+}
+.container {
+    width: 60%;
+    border: 4px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.foods{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+}
+.foods div {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid white;
+}
+p{
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;  
+    margin-left: 20%;
+}
+h5{
+    text-align: center;
+    color: yellow;
+    width: 600px;
+    margin: auto;
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: 3px underline;
+}
+.price{
+    text-align: center;
+    color: rgb(17, 0, 255);
+    width: 600px;
+    margin: auto;
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: 3px underline;
+}
+.preparation{
+    text-align: center;
+    color: rgb(255, 0, 55);
+    width: 600px;
+    margin: auto;
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: 3px underline;
+}
